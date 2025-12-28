@@ -75,13 +75,16 @@ i{
 }
 
 /* ------- BASE -------- */
-body{
-    background: var(--body-color);
-}
 .container{
     width: 100%;
-    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6e57e0, #00c9ff);
 }
+
+body{
+    background: none;
+}
+
 
 /* ----- NAVIGATION BAR ----- */
 nav{
@@ -640,3 +643,4 @@ footer{
         width: 100%;
     }
 }
+
