@@ -1,5 +1,4 @@
 /* ----- POPPINS FONT Link ----- */
-/* ----- POPPINS FONT Link ----- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* ----- VARIABLES ----- */
@@ -75,16 +74,13 @@ i{
 }
 
 /* ------- BASE -------- */
+body{
+    background: var(--body-color);
+}
 .container{
     width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(135deg, #6e57e0, #00c9ff);
+    position: relative;
 }
-
-body{
-    background: none;
-}
-
 
 /* ----- NAVIGATION BAR ----- */
 nav{
@@ -643,4 +639,5 @@ footer{
         width: 100%;
     }
 }
+
 
