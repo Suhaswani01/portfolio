@@ -8,6 +8,12 @@ function myMenuFunction(){
     menuBtn.className = "nav-menu";
   }
 }
+let ex = document.getElementById("ex")
+ex.addEventListener("mouse",function(){
+    a.style.fontSize = "30px";
+    
+});
+
 
 /* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
@@ -113,5 +119,6 @@ sections.forEach(current =>{
   }
 })
 }
+
 
 window.addEventListener('scroll', scrollActive)
