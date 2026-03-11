@@ -10,7 +10,7 @@ function myMenuFunction(){
 }
 let ex = document.getElementById("ex")
 ex.addEventListener("mouse",function(){
-    a.style.fontSize = "30px";
+    ex.style.fontSize = "70px";
     
 });
 
@@ -122,3 +122,4 @@ sections.forEach(current =>{
 
 
 window.addEventListener('scroll', scrollActive)
+
